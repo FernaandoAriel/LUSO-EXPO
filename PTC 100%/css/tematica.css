@@ -1,0 +1,128 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Tahoma, Arial, sans-serif;
+}
+
+header {
+    background: #DD0B69;
+    background: -webkit-linear-gradient(to right, #ED2839, #dd2890);
+    background: linear-gradient(to right, #ED2839, #dd2890);
+
+    height: auto;
+    padding: 48px;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
+    justify-content: space-around;
+}
+
+.container img {
+    display: block;
+    border-radius: 10px;
+}
+
+.title {
+    text-align: center;
+    width: 60%;
+    color: #fff;  
+}
+
+.title h1 {
+    font-size: 40px;
+    text-align: center;
+}
+
+.wave{
+    height: 100px;
+    width: 100%;
+
+    background: #DD0B69;
+    background: -webkit-linear-gradient(to right, #ED2839, #dd2890);
+    background: linear-gradient(to right, #ED2839, #dd2890);
+}
+
+/*Inicio*/
+
+
+.container-text {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    padding: 2rem 0;
+}
+
+.img-container {
+    flex: 1 1 40rem;
+    position: relative;
+    margin: 45px 30px 60px 30px;
+}
+
+.info {
+    flex: 1 1 40rem;
+    margin: 45px 30px 60px 30px;
+    font-size: 130%;
+}
+
+/*Prueba */
+
+.background {
+    background: #f2f2f2;
+    padding: 45px 30px 60px 30px;
+}
+
+.position {
+    display: block;
+    background-color: #fff;
+    margin: 45px 30px 60px 30px;
+    padding-right: 25px;
+    justify-content: space-around;
+}
+
+.container-3>* {
+    padding: 1rem;
+}
+
+.container-3:hover {
+    box-shadow: 0 4px 10px rgba(17, 29, 48, .26);
+}
+
+@media (min-width:768px) {
+    .container-3 {
+        display: grid;
+        grid-auto-rows: 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+.container-3 p {
+    padding: 15px 10px 15px 10px;
+    font-size: 20px;
+}
+
+.text-img {
+    font-size: 20px;
+    width: 60px;
+    height: 60px;
+    text-align: left;
+    margin-top: 15px;
+}
+
+
+
+/*Fin prueba*/
+
+
+
+/*Si funciona*/
+.paragraph {
+    font-size: 130%;
+    padding: 35px;
+}
